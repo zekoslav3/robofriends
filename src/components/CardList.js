@@ -7,8 +7,7 @@ const CardList = ({ robots }) => {
     //}
     return (
         <div>
-            {
-                // map to return multiple component (better than foreach)
+            {                
                 robots.map((user, i) => {
                     return ( 
                         <Card 
